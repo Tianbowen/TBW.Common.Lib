@@ -1,0 +1,8 @@
+D:\田博文\测试\Nuget\NugetProject\TBW.Common.Lib\bin\Release\netstandard2.0\TBW.Common.Lib.deps.json
+D:\田博文\测试\Nuget\NugetProject\TBW.Common.Lib\bin\Release\netstandard2.0\TBW.Common.Lib.dll
+D:\田博文\测试\Nuget\NugetProject\TBW.Common.Lib\bin\Release\netstandard2.0\TBW.Common.Lib.pdb
+D:\田博文\测试\Nuget\NugetProject\TBW.Common.Lib\obj\Release\netstandard2.0\TBW.Common.Lib.csprojAssemblyReference.cache
+D:\田博文\测试\Nuget\NugetProject\TBW.Common.Lib\obj\Release\netstandard2.0\TBW.Common.Lib.AssemblyInfoInputs.cache
+D:\田博文\测试\Nuget\NugetProject\TBW.Common.Lib\obj\Release\netstandard2.0\TBW.Common.Lib.AssemblyInfo.cs
+D:\田博文\测试\Nuget\NugetProject\TBW.Common.Lib\obj\Release\netstandard2.0\TBW.Common.Lib.dll
+D:\田博文\测试\Nuget\NugetProject\TBW.Common.Lib\obj\Release\netstandard2.0\TBW.Common.Lib.pdb

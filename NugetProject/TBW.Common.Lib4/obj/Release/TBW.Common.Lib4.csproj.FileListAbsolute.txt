@@ -1,0 +1,5 @@
+D:\田博文\测试\Nuget\NugetProject\TBW.Common.Lib4\bin\Release\TBW.Common.Lib4.dll
+D:\田博文\测试\Nuget\NugetProject\TBW.Common.Lib4\bin\Release\TBW.Common.Lib4.pdb
+D:\田博文\测试\Nuget\NugetProject\TBW.Common.Lib4\obj\Release\TBW.Common.Lib4.dll
+D:\田博文\测试\Nuget\NugetProject\TBW.Common.Lib4\obj\Release\TBW.Common.Lib4.pdb
+D:\田博文\测试\Nuget\NugetProject\TBW.Common.Lib4\obj\Release\TBW.Common.Lib4.csprojAssemblyReference.cache

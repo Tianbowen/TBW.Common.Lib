@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>TBW</Authors>
+    <Description>TBW.Common.Lib .Net Standard</Description>
+    <Copyright>TBW</Copyright>
+    <PackageTags>TBW Common .Net Standard2.0</PackageTags>
+  </PropertyGroup>
+
+</Project>

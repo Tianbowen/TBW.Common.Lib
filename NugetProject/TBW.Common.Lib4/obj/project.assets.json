@@ -1,0 +1,60 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.0": {},
+    ".NETFramework,Version=v4.0/win": {},
+    ".NETFramework,Version=v4.0/win-x64": {},
+    ".NETFramework,Version=v4.0/win-x86": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.0": []
+  },
+  "packageFolders": {
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\田博文\\测试\\Nuget\\NugetProject\\TBW.Common.Lib4\\TBW.Common.Lib4.csproj",
+      "projectName": "TBW.Common.Lib4",
+      "projectPath": "D:\\田博文\\测试\\Nuget\\NugetProject\\TBW.Common.Lib4\\TBW.Common.Lib4.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "D:\\田博文\\测试\\Nuget\\NugetProject\\TBW.Common.Lib4\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net40"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "D:\\田博文\\项目\\FaceRecognitionSystem\\trunk\\code\\FaceRecognitionSystem.Server\\packages": {},
+        "D:\\田博文\\项目\\SVN项目\\QYZZ\\trunk\\Code\\02Server\\CoreService\\packages": {},
+        "D:\\田博文\\项目\\SVN项目\\YYT\\trunk\\体检病案\\V2.3.3\\02Server\\YiBan.SHMedicalExamination\\packages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net40": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net40": {}
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
