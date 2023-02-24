@@ -6,3 +6,13 @@ D:\田博文\测试\Nuget\NugetProject\TBW.Common.Lib\obj\Release\netstandard2.0
 D:\田博文\测试\Nuget\NugetProject\TBW.Common.Lib\obj\Release\netstandard2.0\TBW.Common.Lib.AssemblyInfo.cs
 D:\田博文\测试\Nuget\NugetProject\TBW.Common.Lib\obj\Release\netstandard2.0\TBW.Common.Lib.dll
 D:\田博文\测试\Nuget\NugetProject\TBW.Common.Lib\obj\Release\netstandard2.0\TBW.Common.Lib.pdb
+D:\Work\OldBack\Personal\Github Repository\TBW.Common.Lib\NugetProject\TBW.Common.Lib\bin\Release\netstandard2.0\TBW.Common.Lib.deps.json
+D:\Work\OldBack\Personal\Github Repository\TBW.Common.Lib\NugetProject\TBW.Common.Lib\bin\Release\netstandard2.0\TBW.Common.Lib.dll
+D:\Work\OldBack\Personal\Github Repository\TBW.Common.Lib\NugetProject\TBW.Common.Lib\bin\Release\netstandard2.0\TBW.Common.Lib.pdb
+D:\Work\OldBack\Personal\Github Repository\TBW.Common.Lib\NugetProject\TBW.Common.Lib\obj\Release\netstandard2.0\TBW.Common.Lib.csproj.AssemblyReference.cache
+D:\Work\OldBack\Personal\Github Repository\TBW.Common.Lib\NugetProject\TBW.Common.Lib\obj\Release\netstandard2.0\TBW.Common.Lib.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\OldBack\Personal\Github Repository\TBW.Common.Lib\NugetProject\TBW.Common.Lib\obj\Release\netstandard2.0\TBW.Common.Lib.AssemblyInfoInputs.cache
+D:\Work\OldBack\Personal\Github Repository\TBW.Common.Lib\NugetProject\TBW.Common.Lib\obj\Release\netstandard2.0\TBW.Common.Lib.AssemblyInfo.cs
+D:\Work\OldBack\Personal\Github Repository\TBW.Common.Lib\NugetProject\TBW.Common.Lib\obj\Release\netstandard2.0\TBW.Common.Lib.csproj.CoreCompileInputs.cache
+D:\Work\OldBack\Personal\Github Repository\TBW.Common.Lib\NugetProject\TBW.Common.Lib\obj\Release\netstandard2.0\TBW.Common.Lib.dll
+D:\Work\OldBack\Personal\Github Repository\TBW.Common.Lib\NugetProject\TBW.Common.Lib\obj\Release\netstandard2.0\TBW.Common.Lib.pdb
