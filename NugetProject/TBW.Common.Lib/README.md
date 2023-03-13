@@ -5,6 +5,8 @@
 - Extension(扩展)
   - StringExtension(字符串扩展方法)
     -  StringEx - 包含字符串空值判断，强制转换等。
+  - LinqSelectExtension(集合Linq扩展方法)
+    - LinqSelectEx - 包含集合Linq Select操作，以及异常回调等。
 - Format(格式化)
   - StringFormat - Semantic Versioning(语义化版本)格式化等。
 - Helper(帮助)
@@ -15,4 +17,11 @@
     - StaticFileLogger - 按年月日时间记录日志到txt文件。
 - Sequence(序列)
   - FibonacciSequence -  斐波那契数列
+- Sort(排序)
+  - BubbleSort - 冒泡排序
+  - InsertionSort - 插入排序
+  - MergeSort - 归并排序
+  - QuickSort - 快速排序
+  - SelectionSort - 选择排序
+
 

@@ -184,7 +184,7 @@
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "restore": {
       "projectUniqueName": "D:\\Work\\OldBack\\Personal\\Github Repository\\TBW.Common.Lib\\NugetProject\\TBW.Common.Lib\\TBW.Common.Lib.csproj",
       "projectName": "TBW.Common.Lib",

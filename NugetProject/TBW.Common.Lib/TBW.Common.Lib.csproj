@@ -8,10 +8,10 @@
     <PackageTags>TBW Common .Net Standard2.0</PackageTags>
     <PackageProjectUrl>https://github.com/tianbowen/TBW.Common.Lib</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <FileVersion>1.0.1.0</FileVersion>
-    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.2.0</FileVersion>
+    <AssemblyVersion>1.0.2.0</AssemblyVersion>
     <PackageOutputPath>$(SolutionDir)\PackageOutput</PackageOutputPath>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
