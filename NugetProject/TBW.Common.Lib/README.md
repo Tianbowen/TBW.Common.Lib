@@ -3,6 +3,8 @@
 - Algorithm(算法)
   - KMP - 文本中快速查找某字符串模式的算法实现
 - Extension(扩展)
+  - GenericTypeExtension(泛型类型扩展方法)
+    - GenericTypeEx - 包含泛型类型获取类型名称等。
   - StringExtension(字符串扩展方法)
     -  StringEx - 包含字符串空值判断，强制转换等。
   - LinqSelectExtension(集合Linq扩展方法)
