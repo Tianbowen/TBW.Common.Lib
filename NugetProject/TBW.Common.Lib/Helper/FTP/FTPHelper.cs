@@ -92,8 +92,6 @@ namespace TBW.Common.Lib.Helper.FTP
         /// <param name="ftpMethod">操作命令</param>
         private FtpWebResponse Open(Uri uri, string ftpMethod)
         {
-            try
-            {
                 request = (FtpWebRequest)FtpWebRequest.Create(uri);
                 request.Method = ftpMethod;
                 request.UseBinary = true;
@@ -106,12 +104,7 @@ namespace TBW.Common.Lib.Helper.FTP
                 //根据验证过程，远程证书无效。
                 ServicePoint sp = request.ServicePoint;
                 ServicePointManager.ServerCertificateValidationCallback = new RemoteCertificateValidationCallback(ValidateServerCertificate);
-                return (FtpWebResponse)request.GetResponse();
-            }
-            catch (Exception ex)
-            {
-                return null;
-            }
+                return (FtpWebResponse)request.GetResponse();         
         }
         /// <summary>
         /// 建立FTP链接,返回请求对象 被动模式
@@ -120,8 +113,6 @@ namespace TBW.Common.Lib.Helper.FTP
         /// <param name="ftpMethod">操作命令</param>
         private FtpWebRequest OpenRequest(Uri uri, string ftpMethod)
         {
-            try
-            {
                 request = (FtpWebRequest)WebRequest.Create(uri);
                 request.Method = ftpMethod;
                 request.UseBinary = true;
@@ -133,12 +124,7 @@ namespace TBW.Common.Lib.Helper.FTP
 
                 ServicePoint sp = request.ServicePoint;
                 ServicePointManager.ServerCertificateValidationCallback = new RemoteCertificateValidationCallback(ValidateServerCertificate);
-                return request;
-            }
-            catch (Exception ex)
-            {
-                return null;
-            }
+                return request;            
         }
         /// <summary>
         /// 证书验证回调

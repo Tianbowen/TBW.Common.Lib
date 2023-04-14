@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -92,8 +93,7 @@ namespace TBW.Common.Lib4.Helper
         /// <param name="ftpMethod">操作命令</param>
         private FtpWebResponse Open(Uri uri, string ftpMethod)
         {
-            try
-            {
+           
                 request = (FtpWebRequest)FtpWebRequest.Create(uri);
                 request.Method = ftpMethod;
                 request.UseBinary = true;
@@ -107,11 +107,7 @@ namespace TBW.Common.Lib4.Helper
                 ServicePoint sp = request.ServicePoint;
                 ServicePointManager.ServerCertificateValidationCallback = new RemoteCertificateValidationCallback(ValidateServerCertificate);
                 return (FtpWebResponse)request.GetResponse();
-            }
-            catch (Exception ex)
-            {
-                return null;
-            }
+          
         }
         /// <summary>
         /// 建立FTP链接,返回请求对象 被动模式
@@ -120,25 +116,18 @@ namespace TBW.Common.Lib4.Helper
         /// <param name="ftpMethod">操作命令</param>
         private FtpWebRequest OpenRequest(Uri uri, string ftpMethod)
         {
-            try
-            {
-                request = (FtpWebRequest)WebRequest.Create(uri);
-                request.Method = ftpMethod;
-                request.UseBinary = true;
-                request.KeepAlive = false;
-                request.UsePassive = true;//被动模式
-                request.EnableSsl = EnableSsl;
-                request.Credentials = new NetworkCredential(Username, Password);
-                request.Timeout = 30000;
+            request = (FtpWebRequest)WebRequest.Create(uri);
+            request.Method = ftpMethod;
+            request.UseBinary = true;
+            request.KeepAlive = false;
+            request.UsePassive = true;//被动模式
+            request.EnableSsl = EnableSsl;
+            request.Credentials = new NetworkCredential(Username, Password);
+            request.Timeout = 30000;
 
-                ServicePoint sp = request.ServicePoint;
-                ServicePointManager.ServerCertificateValidationCallback = new RemoteCertificateValidationCallback(ValidateServerCertificate);
-                return request;
-            }
-            catch (Exception ex)
-            {
-                return null;
-            }
+            ServicePoint sp = request.ServicePoint;
+            ServicePointManager.ServerCertificateValidationCallback = new RemoteCertificateValidationCallback(ValidateServerCertificate);
+            return request;
         }
         /// <summary>
         /// 证书验证回调
