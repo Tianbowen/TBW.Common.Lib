@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace TBW.Common.Lib.Extension.StringExtension
 {
@@ -52,7 +53,58 @@ namespace TBW.Common.Lib.Extension.StringExtension
 
         public static DateTime ToDateTime(this string str)
         {
-            return DateTime.Now;
+            return DateTime.Parse(str);
+        }
+
+
+        /// <summary>
+        /// 人民币 分转元
+        /// </summary>
+        /// <param name="fen"></param>
+        /// <returns></returns>
+        /// <remarks>
+        /// 8 -> 0.08
+        /// 1.23 -> 0.0123
+        /// 7.00 -> 0.07
+        /// </remarks>
+        public static string FenConvertYuan(this string fen)
+        {
+            try
+            {
+                if (!string.IsNullOrWhiteSpace(fen))
+                {
+                    if (fen.IndexOf('.') > -1) // 有点
+                    {
+
+                        decimal zheng = decimal.Parse(fen) / 100.0m; //).ToString();
+
+
+                        if (zheng == 0.0m)
+                        {
+                            return "0";
+                        }
+                        var s = Regex.Match(fen, "^[0-9]+(\\.[0-9]{1}[1-9]{1})?$");
+                        if (s.Success)
+                        {
+                            return zheng.ToString("N4"); // "#.####"
+                        }
+                        else
+                        {
+                            return zheng.ToString("N2"); // "#.####"
+                        }
+                    }
+                    else
+                    {
+                        return fen;
+                    }
+                }
+
+                return "";
+            }
+            catch (Exception ex)
+            {
+                return "";
+            }
         }
 
         #region Nuke.Common.

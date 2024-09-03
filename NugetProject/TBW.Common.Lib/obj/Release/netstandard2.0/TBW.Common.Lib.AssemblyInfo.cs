@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("TBW")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("TBW.Common.Lib .Net Standard")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.2.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.2+bf30250a7079f642e7a1736b564d13297ec55981")]
 [assembly: System.Reflection.AssemblyProductAttribute("TBW.Common.Lib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TBW.Common.Lib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.2.0")]
